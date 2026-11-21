@@ -1,7 +1,6 @@
-# enter-once — Quartierzentrum Union
+# AI for Access - enter-once
 
-> 🌐 Web-readable version of this page: open **[index.html](index.html)** (styled after
-> [union-basel.ch](https://union-basel.ch/)).
+Response to the Quartierzentrum Union challenge at [AI for Access - the Powercoders Hackathon](https://hackathon.powercoders.org). Developed by @loleg & agents - not an official project submission!
 
 ## The challenge
 
@@ -79,3 +78,5 @@ Runs the sync against the sample calendar and prints the published events.
 
 - AI development assistant: [Flint](https://huggingface.co/RecursiveSI/flint) (by Recursive)
 - Editor: [Zed](https://zed.dev)
+
+License: [Apache 2.0](LICENSE)
