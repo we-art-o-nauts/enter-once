@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>enter-once — One calendar, two websites · Quartierzentrum Union</title>
+<meta name="description" content="Hackathon prototype: enter events once in Outlook, publish automatically to union-basel.ch (Webflow) and the Verband Quartiertreffpunkt Basel (WordPress).">
+<link rel="stylesheet" href="data/union-basel.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  /* Page-specific styles on top of the union-basel.ch design tokens */
+  html { scroll-behavior: smooth; }
+
+  .page { max-width: 940px; margin: 0 auto; padding: 0 25px; }
+  main .section { margin-bottom: 40px; width: 100%; }
+  section { scroll-margin-top: 150px; }
+  .section > h2 { text-align: center; }
+
+  .copy { max-width: 700px; text-align: left; }
+  .copy ul { padding-left: 20px; }
+
+  /* Hero */
+  .hero { text-align: center; padding-top: 10px; }
+  .hero .teaser { text-align: center; margin: 0 auto 10px; }
+  .badge {
+    display: inline-block; background: var(--frozen-water); color: var(--midnight-blue);
+    border-radius: 20px; padding: 6px 15px; margin: 4px;
+    font-family: 'Rethink Sans', sans-serif; font-size: .85rem;
+  }
+
+  /* Menu */
+  .menu-button { background: none; border: 0; padding: 0; cursor: pointer; }
+  .menu-panel {
+    display: none; flex-flow: column; gap: 6px; margin-top: 10px;
+    background: var(--color); border: 3px solid var(--molten-orange);
+    border-radius: 20px; padding: 15px 25px; text-align: right;
+  }
+  .menu-panel.open { display: flex; }
+  .menu-panel a {
+    font-family: 'Haffer XH', Arial, sans-serif; font-size: 18px; line-height: 24px;
+    color: var(--midnight-blue);
+  }
+  .menu-panel a:hover { color: var(--molten-orange); }
+
+  /* Buttons */
+  .button {
+    display: inline-block; border: 3px solid var(--pacific-blue); border-radius: 20px;
+    padding: 10px 25px; color: var(--midnight-blue); background: transparent;
+    font-family: 'Rethink Sans', sans-serif; font-size: 16px; font-weight: 500;
+  }
+  .button:hover { border-color: var(--midnight-blue); }
+  .button.orange { border-color: var(--molten-orange); }
+  .button.orange:hover { background: var(--molten-orange); color: #fff; border-color: var(--molten-orange); }
+  .button-row { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; }
+
+  /* Chips */
+  .chip {
+    display: inline-block; border-radius: 20px; padding: 6px 15px; margin: 4px;
+    font-family: 'Rethink Sans', sans-serif; font-size: .9rem; color: var(--midnight-blue);
+  }
+  .chip.pain { background: var(--almond-silk); }
+  .chip.gain { background: var(--tea-green); }
+
+  /* Cards */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; width: 100%; max-width: 940px; }
+  @media screen and (max-width: 767px) { .grid-2 { grid-template-columns: 1fr; } }
+  .card {
+    border: 3px solid var(--pacific-blue); border-radius: 20px;
+    padding: 15px 20px; text-align: left;
+  }
+  .card.green { border-color: var(--jade-green); }
+  .card h3 { margin-top: 0; }
+  .card p { margin-bottom: 0; }
+
+  /* Pipeline steps */
+  .steps { display: grid; gap: 15px; width: 100%; max-width: 700px; }
+  .step {
+    border-left: 6px solid var(--molten-orange); border-radius: 0 20px 20px 0;
+    background: var(--frozen-water); padding: 12px 20px; text-align: left;
+  }
+  .step.b { border-left-color: var(--pacific-blue); }
+  .step.g { border-left-color: var(--jade-green); }
+  .step.n { border-left-color: var(--midnight-blue); }
+  .step h4 { margin: 0 0 4px; }
+  .step p { margin: 0; }
+
+  /* Code */
+  pre {
+    background: var(--midnight-blue); color: #fff; border-radius: 20px;
+    padding: 20px 25px; overflow-x: auto; text-align: left;
+    font-size: .85rem; line-height: 1.5; max-width: 940px; width: 100%;
+  }
+  pre code { color: inherit; background: none; padding: 0; }
+
+  /* Footer */
+  .footer h6 { margin: 0 0 6px; }
+  .footer p { font-size: .9rem; line-height: 1.3rem; margin: 0 0 6px; }
+  .footer a { display: block; }
+</style>
+</head>
+<body class="body">
+
+<div class="nav-bar">
+  <button class="menu-button" aria-label="Menu" aria-expanded="false">
+    <div class="menu-button-container">
+      <div class="menu-button-bar"></div>
+      <div class="menu-button-bar blue"></div>
+      <div class="menu-button-bar green"></div>
+    </div>
+  </button>
+  <nav class="menu-panel" id="menu">
+    <a href="#challenge">The challenge</a>
+    <a href="#solution">The solution</a>
+    <a href="#start">Get started</a>
+    <a href="#production">Production checklist</a>
+    <a href="#credits">Credits</a>
+  </nav>
+</div>
+
+<main class="content">
+  <div class="page">
+
+    <header class="section hero">
+      <h1>enter-once</h1>
+      <p class="teaser">«Ein Kalender, zwei Webseiten: einmal erfassen, überall anzeigen.» —
+        One Outlook calendar, two websites: enter events once, publish everywhere, automatically.</p>
+      <div>
+        <span class="badge">AI for Access Hackathon</span>
+        <span class="badge">20.–21. November 2026</span>
+        <span class="badge">Quartierzentrum Union, Basel</span>
+      </div>
+      <div class="button-row">
+        <a class="button orange" href="#start">Get started</a>
+        <a class="button" href="#solution">How it works</a>
+      </div>
+    </header>
+
+    <section id="challenge" class="section">
+      <h2>The challenge</h2>
+      <div class="copy">
+        <p class="paragraph">Quartierzentrum Union (Basel) runs its public activity programme from a single
+          <strong>Outlook calendar</strong>. Every event — from the centre itself, the bistro partner, or a
+          cooperation partner — is booked as a room reservation there. Two websites must show this programme:</p>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <h3>union-basel.ch</h3>
+          <p><strong>Webflow</strong> — events reach the site via an Elfsight calendar widget fed through a
+            Google Calendar detour (Outlook → Google → Elfsight). The Webflow site itself stores no events.</p>
+        </div>
+        <div class="card green">
+          <h3>Verband Quartiertreffpunkt Basel</h3>
+          <p><strong>WordPress</strong> — a custom-built event tool, filled in <em>manually, one event at a
+            time</em>. No ICS import, no automatic calendar reads.</p>
+        </div>
+      </div>
+      <div class="copy">
+        <p class="paragraph">Result: every event is captured a second time by hand —</p>
+      </div>
+      <div>
+        <span class="chip pain">Typos</span>
+        <span class="chip pain">Forgotten edits</span>
+        <span class="chip pain">Cancelled events that stay online</span>
+        <span class="chip pain">The two sites drift apart</span>
+      </div>
+      <p class="teaser" style="text-align:center;">The goal: <strong>enter once in Outlook, publish everywhere — automatically.</strong></p>
+    </section>
+
+    <section id="solution" class="section">
+      <h2>The solution</h2>
+      <div class="copy">
+        <p class="paragraph"><strong>Outlook stays the single source of truth.</strong> The sync
+          (<code>union_sync.py</code>) reads the calendar, keeps only explicitly public events, and
+          materialises them — one record per concrete date for recurring series — into the format the
+          target platforms consume:</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <h4>1 · Read</h4>
+          <p>ICS source of truth — the published Outlook test calendar or the local sample
+            (<code>union-beispielkalender.ics</code>), parsed with <code>icalendar</code>.</p>
+        </div>
+        <div class="step b">
+          <h4>2 · Filter</h4>
+          <p>Publish <strong>only explicitly public</strong> events. Cancelled, internal
+            (<code>Intern</code> / <code>PRIVATE</code>) and unmarked events never leave the calendar.</p>
+        </div>
+        <div class="step g">
+          <h4>3 · Expand</h4>
+          <p>Recurring series via <code>dateutil.rrule</code> (WEEKLY, <code>UNTIL</code>, <code>COUNT</code>,
+            <code>BYDAY</code>), honouring <code>EXDATE</code> skips and <code>RECURRENCE-ID</code> moved dates.</p>
+        </div>
+        <div class="step n">
+          <h4>4 · Publish</h4>
+          <p>One record per concrete date — start/end, room, categories, tags, image — as
+            <code>--json</code> or readable output, plus a sync state file for deletion handling.</p>
+        </div>
+      </div>
+      <pre><code>Outlook calendar (ICS)
+        │
+        ▼
+   union_sync.py
+   ├─ parse VEVENTs ......... icalendar
+   ├─ filter ................ public only
+   ├─ expand recurrences .... dateutil.rrule
+   ├─ apply overrides ....... EXDATE · RECURRENCE-ID
+   └─ emit records .......... start / end / room / categories / tags / image
+        │
+        ▼
+  JSON records + sync state ──▶ Webflow CMS · WordPress event tool</code></pre>
+      <div class="copy">
+        <p class="paragraph">What the sync guarantees:</p>
+        <ul>
+          <li>Cancelled events disappear.</li>
+          <li>Internal room bookings (staff-only) never leave the calendar.</li>
+          <li>Moved dates (<code>RECURRENCE-ID</code>) replace the original occurrence.</li>
+          <li>Skipped dates (<code>EXDATE</code>) are not published.</li>
+          <li>Recurring series become individual events (WordPress-style: one per date).</li>
+        </ul>
+      </div>
+      <div>
+        <span class="chip gain">No double entry</span>
+        <span class="chip gain">Changes sync automatically</span>
+        <span class="chip gain">Cancellations sync automatically</span>
+        <span class="chip gain">Only public events</span>
+      </div>
+    </section>
+
+    <section id="start" class="section">
+      <h2>Get started</h2>
+      <div class="copy">
+        <p class="paragraph">Requirements: <strong>Python 3.12+</strong> and <a href="https://docs.astral.sh/uv/">uv</a>.
+          Clone the project, then:</p>
+      </div>
+      <pre><code># 1. install dependencies
+uv sync
+
+# 2. run the sync on the sample calendar
+uv run union_sync.py --ics union-kit_kalender-cms-anleitung/union-beispielkalender.ics
+
+# 3. or use the one-shot demo
+./demo.sh
+
+# JSON records for the website pipeline
+uv run union_sync.py --json
+
+# sync against the real Outlook test calendar
+uv run union_sync.py --calendar "https://outlook.office365.com/owa/calendar/…/calendar.ics"</code></pre>
+      <div class="copy">
+        <p class="paragraph">Where to look in the repository:</p>
+        <ul>
+          <li><a href="README.md">README.md</a> — challenge, sprint, solution, production notes</li>
+          <li><a href="AGENTS.md">AGENTS.md</a> — architecture and data contract for further development</li>
+          <li><a href="union_sync.py">union_sync.py</a> — the sync prototype</li>
+          <li><a href="demo_output.txt">demo_output.txt</a> — verified sample output</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="production" class="section">
+      <h2>Production checklist</h2>
+      <div class="copy">
+        <ul>
+          <li><strong>Source:</strong> the real Outlook ICS URL (or Microsoft Graph API for authenticated,
+            reliable access) instead of the local sample file.</li>
+          <li><strong>Webflow:</strong> push events into the Webflow CMS via the CMS API (or replace the
+            Elfsight widget with a custom event list fed by the sync output).</li>
+          <li><strong>WordPress:</strong> connect the custom event tool via ICS feed / Microsoft Graph /
+            automation platform (Make/Zapier); needs a publish/delete API for previously published events.</li>
+          <li><strong>Public/internal marker:</strong> a durable, staff-friendly convention — the real
+            Outlook feed marks public events only via Google Calendar invitations, which are not visible
+            in ICS. A production marker must be agreed.</li>
+          <li><strong>State &amp; scheduling:</strong> persistent store of published event IDs plus
+            scheduled sync runs (cron/serverless) for ongoing reconciliation and deletions.</li>
+          <li><strong>Time handling:</strong> <code>UNTIL</code> values are UTC; occurrences are
+            timezone-aware (Europe/Berlin).</li>
+          <li><strong>AI extension (future):</strong> category typo correction (<code>Kulturr</code> →
+            <code>Kultur</code>), missing descriptions, easy-language output, target-group assignment.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="credits" class="section">
+      <h2>Credits</h2>
+      <div class="copy">
+        <p class="paragraph"><img src="data/flint-logo.png" alt="Flint logo" style="height: 44px; vertical-align: middle; margin: 0 8px 0 0;">
+          Built for the <strong>AI for Access Hackathon</strong> (20.–21. November 2026)
+          with the AI development assistant
+          <a href="https://huggingface.co/RecursiveSI/flint">Flint</a> (by Recursive) in the
+          <a href="https://zed.dev">Zed</a> editor. Styles borrowed from
+          <a href="https://union-basel.ch/">union-basel.ch</a>.</p>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div>
+    <h6>enter-once</h6>
+    <p>Hackathon prototype — one calendar, two websites.</p>
+  </div>
+  <div>
+    <h6>Quartierzentrum Union</h6>
+    <p>Klybeckstrasse 95<br>4057 Basel</p>
+    <a href="https://union-basel.ch/">union-basel.ch</a>
+    <a href="mailto:info@union-basel.ch">info@union-basel.ch</a>
+    <a href="tel:+41616832343">+41 61 683 23 43</a>
+  </div>
+  <div>
+    <h6>Project</h6>
+    <a href="README.md">README.md</a>
+    <a href="AGENTS.md">AGENTS.md</a>
+    <a href="union_sync.py">union_sync.py</a>
+    <a href="demo_output.txt">demo_output.txt</a>
+  </div>
+  <div>
+    <h6>Credits</h6>
+    <a href="https://huggingface.co/RecursiveSI/flint">Flint (Recursive)</a>
+    <a href="https://zed.dev">Zed editor</a>
+    <a href="https://union-basel.ch/">Styles: union-basel.ch</a>
+  </div>
+</footer>
+
+<script>
+  const btn = document.querySelector('.menu-button');
+  const panel = document.getElementById('menu');
+  btn.addEventListener('click', () => {
+    const open = panel.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  panel.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    panel.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+  }));
+</script>
+
+</body>
+</html>

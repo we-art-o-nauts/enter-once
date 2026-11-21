@@ -1,5 +1,8 @@
 # enter-once — Quartierzentrum Union
 
+> 🌐 Web-readable version of this page: open **[index.html](index.html)** (styled after
+> [union-basel.ch](https://union-basel.ch/)).
+
 ## The challenge
 
 Quartierzentrum Union (Basel) runs its public activity programme from a single
