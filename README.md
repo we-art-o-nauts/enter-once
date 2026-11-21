@@ -2,6 +2,8 @@
 
 Response to the Quartierzentrum Union challenge at [AI for Access - the Powercoders Hackathon](https://hackathon.powercoders.org). Developed by @loleg & agents - not an official project submission!
 
+[Slide presentation](PRESENTATION.pdf) (auf Deutsch)
+
 ## The challenge
 
 Quartierzentrum Union (Basel) runs its public activity programme from a single
