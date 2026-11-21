@@ -1,0 +1,635 @@
+📡 Quelle: union-kit_kalender-cms-anleitung/union-beispielkalender.ics
+📦 Events gelesen: 12 | ⏭️  Veröffentlicht: 71 | 🗑️  Gelöscht (Sync): 0
+
+✅ Offener Deutschtreff
+   📅 Thu 19.11.2026, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 20.11.2026, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 23.11.2026, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Kinderpiazza
+   📅 Mon 23.11.2026, 14:00 – 17:00 Uhr
+   📍 Grosser Saal
+   🏷️  Kategorie: Offener Treffpunkt · Bewegung · Kreativität
+   🏷️  Tags: Familie, Kinder, Babys & Kleinkinder
+   📝 Offener Spielnachmittag für Kinder mit Begleitung.
+   🖼️  Kinderpiazza.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ MittwochsBAR im Union
+   📅 Wed 25.11.2026, 19:00 – 23:00 Uhr
+   📍 Bistro Union
+   🏷️  Kategorie: Musik · Party
+   🏷️  Tags: Erwachsene, Highlight
+   📝 Live-Musik und Drinks im Bistro. Eintritt frei, Kollekte.
+   🖼️  MittwochsBAR_im_Union.jpg
+
+✅ Offener Deutschtreff
+   📅 Thu 26.11.2026, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 27.11.2026, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Theater Niemandsland
+   📅 Fri 27.11.2026, 18:00 – 22:00 Uhr
+   📍 Grosser Saal
+   🏷️  Kategorie: (keine Kategorie — AI-Fall)
+   📝 
+   🖼️  Theater_Niemandsland.jpg
+
+✅ Brunch Atelier Cuisine Globale
+   📅 Sun 29.11.2026, 09:00 – 14:30 Uhr
+   📍 Bistro Union
+   🏷️  Kategorie: Essen & Trinken · Offener Treffpunkt
+   🏷️  Tags: Familie
+   📝 Brunch mit Gerichten aus aller Welt, gekocht von Menschen aus dem Quartier.
+   🖼️  Brunch_Atelier_Cuisine_Globale.jpg
+
+✅ Yoga im Union
+   📅 Mon 30.11.2026, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Kinderpiazza
+   📅 Mon 30.11.2026, 14:00 – 17:00 Uhr
+   📍 Grosser Saal
+   🏷️  Kategorie: Offener Treffpunkt · Bewegung · Kreativität
+   🏷️  Tags: Familie, Kinder, Babys & Kleinkinder
+   📝 Offener Spielnachmittag für Kinder mit Begleitung.
+   🖼️  Kinderpiazza.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 03.12.2026, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 04.12.2026, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Repair Café
+   📅 Sat 05.12.2026, 13:00 – 17:00 Uhr
+   📍 Bühnensaal
+   🏷️  Kategorie: Kulturr
+   🏷️  Tags: Erwachsene, Jugendliche
+   📝 Kaputte Geräte gemeinsam reparieren.
+   🖼️  Repair_Café.jpg
+
+✅ Yoga im Union
+   📅 Mon 07.12.2026, 10:00 – 11:00 Uhr
+   📍 Grosser Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Heute ausnahmsweise später und im Grossen Saal.
+   🖼️  Yoga_im_Union.jpg
+
+✅ Kinderpiazza
+   📅 Mon 07.12.2026, 14:00 – 17:00 Uhr
+   📍 Grosser Saal
+   🏷️  Kategorie: Offener Treffpunkt · Bewegung · Kreativität
+   🏷️  Tags: Familie, Kinder, Babys & Kleinkinder
+   📝 Offener Spielnachmittag für Kinder mit Begleitung.
+   🖼️  Kinderpiazza.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 10.12.2026, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 11.12.2026, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 14.12.2026, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Kinderpiazza
+   📅 Mon 14.12.2026, 14:00 – 17:00 Uhr
+   📍 Grosser Saal
+   🏷️  Kategorie: Offener Treffpunkt · Bewegung · Kreativität
+   🏷️  Tags: Familie, Kinder, Babys & Kleinkinder
+   📝 Offener Spielnachmittag für Kinder mit Begleitung.
+   🖼️  Kinderpiazza.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 17.12.2026, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 18.12.2026, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 21.12.2026, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Kinderpiazza
+   📅 Mon 21.12.2026, 14:00 – 17:00 Uhr
+   📍 Grosser Saal
+   🏷️  Kategorie: Offener Treffpunkt · Bewegung · Kreativität
+   🏷️  Tags: Familie, Kinder, Babys & Kleinkinder
+   📝 Offener Spielnachmittag für Kinder mit Begleitung.
+   🖼️  Kinderpiazza.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 25.12.2026, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 28.12.2026, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Kinderpiazza
+   📅 Mon 28.12.2026, 14:00 – 17:00 Uhr
+   📍 Grosser Saal
+   🏷️  Kategorie: Offener Treffpunkt · Bewegung · Kreativität
+   🏷️  Tags: Familie, Kinder, Babys & Kleinkinder
+   📝 Offener Spielnachmittag für Kinder mit Begleitung.
+   🖼️  Kinderpiazza.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 01.01.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 04.01.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Kinderpiazza
+   📅 Mon 04.01.2027, 14:00 – 17:00 Uhr
+   📍 Grosser Saal
+   🏷️  Kategorie: Offener Treffpunkt · Bewegung · Kreativität
+   🏷️  Tags: Familie, Kinder, Babys & Kleinkinder
+   📝 Offener Spielnachmittag für Kinder mit Begleitung.
+   🖼️  Kinderpiazza.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 07.01.2027, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 08.01.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 11.01.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Kinderpiazza
+   📅 Mon 11.01.2027, 14:00 – 17:00 Uhr
+   📍 Grosser Saal
+   🏷️  Kategorie: Offener Treffpunkt · Bewegung · Kreativität
+   🏷️  Tags: Familie, Kinder, Babys & Kleinkinder
+   📝 Offener Spielnachmittag für Kinder mit Begleitung.
+   🖼️  Kinderpiazza.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 14.01.2027, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 15.01.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 18.01.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Kinderpiazza
+   📅 Mon 18.01.2027, 14:00 – 17:00 Uhr
+   📍 Grosser Saal
+   🏷️  Kategorie: Offener Treffpunkt · Bewegung · Kreativität
+   🏷️  Tags: Familie, Kinder, Babys & Kleinkinder
+   📝 Offener Spielnachmittag für Kinder mit Begleitung.
+   🖼️  Kinderpiazza.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 21.01.2027, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 22.01.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 25.01.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Kinderpiazza
+   📅 Mon 25.01.2027, 14:00 – 17:00 Uhr
+   📍 Grosser Saal
+   🏷️  Kategorie: Offener Treffpunkt · Bewegung · Kreativität
+   🏷️  Tags: Familie, Kinder, Babys & Kleinkinder
+   📝 Offener Spielnachmittag für Kinder mit Begleitung.
+   🖼️  Kinderpiazza.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 28.01.2027, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 29.01.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 01.02.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Kinderpiazza
+   📅 Mon 01.02.2027, 14:00 – 17:00 Uhr
+   📍 Grosser Saal
+   🏷️  Kategorie: Offener Treffpunkt · Bewegung · Kreativität
+   🏷️  Tags: Familie, Kinder, Babys & Kleinkinder
+   📝 Offener Spielnachmittag für Kinder mit Begleitung.
+   🖼️  Kinderpiazza.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 04.02.2027, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 05.02.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 08.02.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Kinderpiazza
+   📅 Mon 08.02.2027, 14:00 – 17:00 Uhr
+   📍 Grosser Saal
+   🏷️  Kategorie: Offener Treffpunkt · Bewegung · Kreativität
+   🏷️  Tags: Familie, Kinder, Babys & Kleinkinder
+   📝 Offener Spielnachmittag für Kinder mit Begleitung.
+   🖼️  Kinderpiazza.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 11.02.2027, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 12.02.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 15.02.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 18.02.2027, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 19.02.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 22.02.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 25.02.2027, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 26.02.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 01.03.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 04.03.2027, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 05.03.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 08.03.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 11.03.2027, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 12.03.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 15.03.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 18.03.2027, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 19.03.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 22.03.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
+
+✅ Offener Deutschtreff
+   📅 Thu 25.03.2027, 15:00 – 17:00 Uhr
+   📍 Quartierraum
+   🏷️  Kategorie: Bildung · Offener Treffpunkt
+   🏷️  Tags: Deutschlernende, Erwachsene
+   📝 Gemeinsam Deutsch sprechen und neue Leute kennenlernen. Ohne Anmeldung, kostenlos.
+   🖼️  Offener_Deutschtreff.jpg
+   🔁 Serie: wöchentlich (BYDAY=TH), SEQUENCE=0
+
+✅ Seniorensport
+   📅 Fri 26.03.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Senior:innen
+   📝 Bewegung in der Gruppe, angepasst an jedes Alter.
+   🖼️  Seniorensport.jpg
+   🔁 Serie: wöchentlich (BYDAY=FR), SEQUENCE=0
+
+✅ Yoga im Union
+   📅 Mon 29.03.2027, 09:00 – 10:00 Uhr
+   📍 Oberer Saal
+   🏷️  Kategorie: Bewegung
+   🏷️  Tags: Erwachsene
+   📝 Sanftes Yoga für alle Niveaus. Matten sind vorhanden.
+   🖼️  Yoga_im_Union.jpg
+   🔁 Serie: wöchentlich (BYDAY=MO), SEQUENCE=0
