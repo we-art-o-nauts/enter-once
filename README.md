@@ -44,6 +44,14 @@ concrete date for recurring series — into the format the target platforms cons
 - Skipped dates (`EXDATE`) are not published.
 - Recurring series become individual events (WordPress-style: one per date).
 
+## Demo
+
+```sh
+./demo.sh
+```
+
+Runs the sync against the sample calendar and prints the published events.
+
 ## What a production deployment would need
 
 - **Source:** the real Outlook ICS URL (or Microsoft Graph API for authenticated, reliable
